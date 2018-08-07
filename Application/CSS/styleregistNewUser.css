@@ -1,0 +1,75 @@
+/*
+** P.Porto - Escola Superior de Tecnologia e Gestão
+** PF - Projeto Final
+** 8130368 - Ana Martins 
+*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 98%;
+    text-align: right;
+}
+
+.footer p{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+section{
+    top:52%;
+    left:35%;
+    position:fixed;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+section form label{
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#sbutton, #resetbutton{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#sbutton:hover, #resetbutton:hover {background-color: black; color: white;}
+
+#sbutton:active, #resetbutton:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+#fundo_verde{
+    opacity: 40%;
+}
+
+h2{
+    top: 42%;
+    position: fixed;
+    left: 35%;
+}
+
+h1{
+    width: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    height: 10%;
+    position: fixed;
+    top: 27%;
+    font-weight: bold;
+    left: 0;   
+    padding: 10px;
+    color:green;
+    font-size: 35px;
+    padding-top: 25px;
+    padding-left: 25%;
+}

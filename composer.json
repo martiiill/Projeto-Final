@@ -1,0 +1,13 @@
+{
+    "name": "vendor/projeto",
+    "description": "Description of project projeto.",
+    "authors": [
+        {
+            "name": "anaal",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+    "php-ai/php-ml": "v0.3.0."
+    }
+}

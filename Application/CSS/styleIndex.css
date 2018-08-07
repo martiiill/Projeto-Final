@@ -1,0 +1,103 @@
+/*
+** P.Porto - Escola Superior de Tecnologia e Gestão
+** PF - Projeto Final
+** 8130368 - Ana Martins 
+*/
+
+#fundo_verde{
+    opacity: 40%;
+}
+
+.header img {
+    margin-left: 69%;
+    margin-top: -1%;
+    position: absolute;
+}
+
+.header {
+    margin-top: 3%;
+}
+
+.header h1{
+    color: green;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+}
+
+#spanErro{
+    color:red;
+    font-size: 30px;
+    top: 300px;
+}
+
+form{
+    border: 2px solid black;
+    width: 390px;
+    height: 170px;
+    text-align: center;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+.registo{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.registo p a{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.registo p a:hover {background-color: black; color: white;}
+
+.registo p a:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+form input{
+    margin: 20px;
+}
+
+#entrar {
+    margin: 5px;
+}
+
+.menutopo  {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: right;
+    margin-right: 80px;
+}
+
+.menutopo li {
+   display:inline;
+   font-size: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 98%;
+    text-align: right;
+}
+
+.footer p{
+    font-size: 10px;
+    font-weight: bold;
+}
